@@ -23,3 +23,4 @@ I have the 3 months holiday after the SEE exams so that I am utilizing this time
 I also started to learn the grade 11 science in this time. 
 I  had also started another file name named as practical .txt.
 I had learned the basic codes which is used for adding the codes commit the codes and push the codes for adding in intro.txt git add intro.txt anf for commit in intro.txt file git commit -m "and used to give topices type or giving the modified or changed topices and for push in github by the help of origin and the master branch git push origin master then it is pushed.
+I had learned the cheat codes in git 
