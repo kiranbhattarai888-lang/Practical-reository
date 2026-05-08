@@ -1,32 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>KIRAN</title>
+<style>
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2, p {
+  margin: 4px;
+  font-size: 90%;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(102, 90, 146);
+  color: rgb(225, 190, 190);
+}
+</style>
 </head>
 <body>
-  <h1><strong><mark> INFORMATION</h1></strong></mark>
-  <p><b> Its me Kiran Bhattarai. I am 15 years old. I completed my see exams from the Shree Shanti Namuna Model Secondary School. Now I am learning the full stack coading. </b></p>
-  <hr/>
-<h2><strong><mark>DETAILS</mark></strong></h2>
-<dl>
-  <dt><dfn><mark>QULIFICATION</mark><dfn></dt>
-  <dd> I started my study at two years old. I completed my SEE exams in 2082 BS from the Shree Shanti Namuna Model Secondary School. I achived 3.80 GPA in BLE exams and now I started my full stack coading in GRAPHILLA TECHNOLOGY. Now I am Learning the HTML.</dd>
-  <hr/>
-  <dt><em><mark>HEALTH ISSUES</mark></em></dt>
-  <dd> I am now very fine in the health conditions because when I was two years old I had ejected the 60+ injections in backbone due to manendities. After my leg was factured when I had 9 years old. After that I was suffered form the Appendix when I was 14 years old.  </dd>
-<hr/>
-<h3><i><mark>EXTRA QULIFICATIONS</mark></i></h3>
-<ul>
-  <li>I can easyly handle excel and other softwares.</li>
-  <li>I also can make all types of graphices or pictures </li>
-  <li>I can do the basic types of html anf git programme </li>
-  <li>I have the good communication skills.</li>
-</ul>
-<h4> I also can handle all types of bugs in programme and I also can handle the peoples in a good and effective way.</h4>
-</dl>
-<p><b><mark>For Further Information You Can Cheak Out Ours Facebook Account  </mark></b></p>
-<nav>
-  <a href="https://facebook.com">facebook</a>
-</nav>
+
+<h1>The article and footer elements + CSS</h1>
+
+<article class="all-browsers">
+  <h1>Most Popular Browsers</h1>
+  <article class="browser">
+    <h2>Google Chrome</h2>
+    <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+  </article>
+  <article class="browser">
+    <h2>Mozilla Firefox</h2>
+    <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+  </article>
+  <article class="browser">
+    <h2>Microsoft Edge</h2>
+    <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+  </article>
+</article>
+
+<footer>
+  <p>Author: Hege Refsnes<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
 </body>
 </html>
