@@ -1,0 +1,76 @@
+address{
+text-align: center;
+text-transform: uppercase;
+color:#FF69B4 !important;
+}
+h1{
+    text-align: center;
+ color: #0047AB;
+ text-transform: uppercase;
+}
+.ab{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #305CDE;
+}
+.bh{
+    text-transform: capitalize;
+    color: #2E5090;
+}
+.footer{
+    text-align: center;
+    text-transform: capitalize;
+    color: #87CEEB;
+    text-shadow: 2px 2px 5px #87CEEB; 
+} 
+#colour{
+    color: #008C8C;
+    text-align: left;
+    font-style: oblique;
+    font-weight: 300;
+    font-variant: small-caps;
+    
+}
+
+#next{
+text-transform: capitalize;
+font-variant: small-caps;
+color: #008C8C;
+font-weight: bolder;
+}
+.ab{
+    color: #666666 ;
+    text-align: left;
+    font-variant: small-caps;
+    font-weight: 800;
+    
+}
+.costumize{
+    color: #065535;
+    text-decoration: double;
+    text-decoration-line: underline;
+    font-variant: small-caps;
+    font-size: medium;
+text-align: center;
+border-style: solid;
+border-width: 2px;
+border-color:#f10000;
+}
+*{
+font-family: "Noto Sans Devanagari", sans-serif;
+}
+.background{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFAulbVW6uSk9OYLUbFGZ8-J3QKoJuy4Vx5w&s);
+background-size:cover;
+}
+.background{
+    text-align: center;
+    color: #0047AB;
+    text-emphasis: none;
+    text-decoration: dashed;
+    text-align: justify;
+    text-overflow: clip;
+}
+
+
+
